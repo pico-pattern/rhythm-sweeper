@@ -19,7 +19,7 @@ Game.song.appendChild(source);
 
 document.body.appendChild(Game.screen);
 document.body.appendChild(Game.song);
-Game.song.addEventListener('loadeddata', 
+Game.song.addEventListener('loadeddata',
   Game.song.play(),
   true
 );
@@ -28,7 +28,7 @@ function createGrid() {};
 
 function main() {
   render()
-  window.requestAnimationFrame(main())
+  window.requestAnimationFrame(main)
 };
 
 
