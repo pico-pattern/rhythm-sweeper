@@ -35,7 +35,7 @@ function main() {
 function render() {
   var ctx = Game.screen.getContext("2d");
 
-  ctx.font = "20px Georgia";
+  ctx.font = "20px Arial";
   ctx.fillStyle = "#0000ff";
   ctx.fillText(Game.song.currentTime,10,50);
 }
